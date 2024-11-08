@@ -6,8 +6,8 @@ The Manual Artifact Extraction Lab involved analyzing safe phishing emails to ex
 ## Steps and Methods
 1. Email Client Setup
 
-Opened each phishing email in Mozilla Thunderbird to review basic details, such as sender and recipient addresses, subject lines, and links.
-Email Artifact Collection with Sublime Text 2
+- Opened each phishing email in Mozilla Thunderbird to review basic details, such as sender and recipient addresses, subject lines, and links.
+- Email Artifact Collection with Sublime Text 2
 
 2. Imported each .eml file into Sublime Text 2 to access detailed headers and metadata.
 Collected specific information such as:
