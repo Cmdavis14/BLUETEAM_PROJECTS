@@ -6,7 +6,7 @@ This repository contains a collection of blue team-focused labs and projects des
 ## Project List
 
 1. **Manual Artifact Extraction Lab**
-   - **Objective:** Analyze a suspicious email attachment by extracting and verifying file hashes, reviewing email headers, and performing IP tracing.
+   - **Objective:** Analyze a two email attachment by extracting and verifying file hashes, reviewing email headers, and performing IP tracing.
    - **Methods:** Obtained SHA-256 and MD5 hashes, manually reviewed email headers in a text editor, and conducted a WHOIS lookup on the sender’s IP address.
    - **Skills Demonstrated:** Manual forensic artifact extraction, email header analysis, IP tracing.
    - **Files:** `Manual_Artifact_Extraction_Lab.md`  
