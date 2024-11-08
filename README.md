@@ -12,7 +12,7 @@ This repository contains a collection of blue team-focused labs and projects des
    - **Files:** `Manual_Artifact_Extraction_Lab.md`  
    - **Screenshots:** Located in the `screenshots` folder.
    - **Summary:** This lab provides insight into the step-by-step processes for analyzing and identifying suspicious email artifacts.
-   - [Manual Artifact Extraction Lab](Manual_Artifact_Extraction_Lab/README.md)
+   - [Manual Artifact Extraction Lab](Manual_Artifact_Extraction_Lab)
 
 2. **[Other Labs or Projects - Placeholder]**
    - Add details for other labs in the same format as you complete them.
