@@ -23,7 +23,12 @@ This repository contains a collection of blue team-focused labs and projects des
    - **Summary:** This lab reveals the tactics behind a phishing attempt through file attachment analysis, emphasizing the importance of verifying email sources and inspecting file properties.
    - [Attachment Analysis Lab](Attachment_Analysis_lab/README.md)
 
-3. **[Other Labs or Projects - Placeholder]**
-   - Add details for other labs in the same format as you complete them.
+3. **Phishing Response Challenge Lab**
+   - **Objective**: Identify and analyze phishing emails, including email headers, sender details, and attachment analysis, to develop defensive measures.
+   - **Methods**: Reviewed email headers, performed IP and reverse DNS lookups, and analyzed email attachments for malware or phishing signs. Proposed defensive strategies like email filtering and user awareness training.
+   - **Skills Demonstrated**: Phishing email detection, header analysis, attachment analysis, incident response.
+   - **Files**: `Phishing_Response_Challenge_Lab/README.md`
+   - **Screenshots**: Located in the `Phishing_Response_Challenge_Lab/screenshots` folder.
+   - [Attachment Analysis Lab](Attachment_Analysis_lab/README.md)
 
 ## Repository Structure
