@@ -29,6 +29,6 @@ This repository contains a collection of blue team-focused labs and projects des
    - **Skills Demonstrated**: Phishing email detection, header analysis, attachment analysis, incident response.
    - **Files**: `Phishing_Response_Challenge_Lab/README.md`
    - **Screenshots**: Located in the `Phishing_Response_Challenge_Lab/screenshots` folder.
-   - [Attachment Analysis Lab](Attachment_Analysis_lab/README.md)
+   - [Attachment Analysis Lab](Phishing_Response_Challenge_Lab/READ.md)
 
 ## Repository Structure
