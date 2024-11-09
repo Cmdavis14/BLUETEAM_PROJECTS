@@ -42,7 +42,7 @@ This repository contains a collection of blue team-focused labs and projects des
 
 
 
-## 5. **Identifying_File_Systems_FTKImager**
+ 5. **Identifying_File_Systems_FTKImager**
    - **Objective**: Analyzed three disk images (`carve1.img`, `carve2.img`, and `disk1.img`) to identify the file systems used by the imaged computers.
    - **Methods**: Used **FTK Imager** to import and analyze disk images. For each image, I examined the file system properties and identified the file system types (NTFS, FAT32, and Linux). This process involved importing each disk image into FTK Imager, reviewing the          properties tab, and identifying the file system structure for forensic investigation.
    - **Skills Demonstrated**: Disk image analysis, file system identification (NTFS, FAT32, Linux), using FTK Imager for forensic analysis, and understanding forensic methodologies for file system determination.
