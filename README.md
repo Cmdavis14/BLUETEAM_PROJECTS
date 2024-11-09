@@ -14,7 +14,16 @@ This repository contains a collection of blue team-focused labs and projects des
    - **Summary:** This lab provides insight into the step-by-step processes for analyzing and identifying suspicious email artifacts.
    - [Manual Artifact Extraction Lab](Manual_Artifact_Extraction_Lab)
 
-2. **[Other Labs or Projects - Placeholder]**
+2. **Attachment Analysis Lab**
+   - **Objective:** Investigate a phishing email attachment that impersonates Microsoft to harvest credentials.
+   - **Methods:** Examined the attachment file’s properties, decoded the page source, identified autofilled recipient information, and traced the request URL used for credential harvesting.
+   - **Skills Demonstrated:** Phishing analysis, file hash verification, source code analysis, identifying credential harvesting mechanisms.
+   - **Files:** `Attachment_Analysis_Lab/README.md`  
+   - **Screenshots:** Located in the `Attachment_Analysis_Lab/screenshots` folder.
+   - **Summary:** This lab reveals the tactics behind a phishing attempt through file attachment analysis, emphasizing the importance of verifying email sources and inspecting file properties.
+   - [Attachment Analysis Lab](Attachment_Analysis_Lab/README.md)
+
+3. **[Other Labs or Projects - Placeholder]**
    - Add details for other labs in the same format as you complete them.
 
 ## Repository Structure
