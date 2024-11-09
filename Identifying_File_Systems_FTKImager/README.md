@@ -44,7 +44,7 @@ In this lab, my goal was to analyze three disk images (`carve1.img`, `carve2.img
 
 Below is a screenshot showing the file system information for all three disk images:
 
-![File System Analysis](path-to-screenshot.png)
+![File System Analysis](screenshots/FileSystemsforevidence.png)
 
 ## Summary
 
