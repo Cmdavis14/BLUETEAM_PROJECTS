@@ -38,7 +38,17 @@ This repository contains a collection of blue team-focused labs and projects des
    - **Methods**: Explored MISP to research different ransomware types, analyzed the Turla Team threat actor, investigated DDoS events, and gathered intelligence on vulnerabilities affecting external vendors.
    - **Skills Demonstrated**: Threat intelligence gathering, ransomware analysis, threat actor research, vulnerability analysis, DDoS investigation.
    - **Files**: `Threat_Intelligence_MISP_Lab/README.md`
-   - - [Threat Intelligence Analyis with MISP Lab](Threat_Intell_Using_MISP/README.md)
+   - [Threat Intelligence Analyis with MISP Lab](Threat_Intell_Using_MISP/README.md)
+
+
+
+## 5. **Identifying_File_Systems_FTKImager**
+   - **Objective**: Analyzed three disk images (`carve1.img`, `carve2.img`, and `disk1.img`) to identify the file systems used by the imaged computers.
+   - **Methods**: Used **FTK Imager** to import and analyze disk images. For each image, I examined the file system properties and identified the file system types (NTFS, FAT32, and Linux). This process involved importing each disk image into FTK Imager, reviewing the          properties tab, and identifying the file system structure for forensic investigation.
+   - **Skills Demonstrated**: Disk image analysis, file system identification (NTFS, FAT32, Linux), using FTK Imager for forensic analysis, and understanding forensic methodologies for file system determination.
+   - **Files**: `Disk_Image_Analysis_Lab/README.md`
+   - [Identifying File systems using FTK Imager](Identifying_File_Systems_FTKImager/README.md)
+
 
 
 ## Repository Structure
