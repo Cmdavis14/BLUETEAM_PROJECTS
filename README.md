@@ -21,7 +21,7 @@ This repository contains a collection of blue team-focused labs and projects des
    - **Files:** `Attachment_Analysis_Lab/README.md`  
    - **Screenshots:** Located in the `Attachment_Analysis_Lab/screenshots` folder.
    - **Summary:** This lab reveals the tactics behind a phishing attempt through file attachment analysis, emphasizing the importance of verifying email sources and inspecting file properties.
-   - [Attachment Analysis Lab](Attachment_Analysis_Lab/README.md)
+   - [Attachment Analysis Lab](Attachment_Analysis_lab/README.md)
 
 3. **[Other Labs or Projects - Placeholder]**
    - Add details for other labs in the same format as you complete them.
