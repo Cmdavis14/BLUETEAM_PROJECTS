@@ -23,7 +23,7 @@ Through this lab, I developed skills in:
      - Ran `exiftool` on an image file to retrieve details such as the camera model.
    - **What I Learned**: This exercise introduced me to `exiftool`, a powerful utility for examining and extracting metadata, which is useful in digital forensics to gather information from file properties.
 
-   **Screenshot**: Insert screenshots here showing terminal output from the `exiftool` commands.
+  ![Marked Malicious Emails](screenshots/metadataofdummyfile.png)
 
 ### 3. File Carving with `Scalpel`
    - **Description**: Configured and used `scalpel` to recover a deleted image file from an NTFS-formatted disk image.
@@ -34,7 +34,8 @@ Through this lab, I developed skills in:
      - Calculated the MD5 hash of the recovered image to verify the file’s integrity.
    - **What I Learned**: This step taught me about file carving, a technique used in data recovery and forensics to extract files from disk images based on file signatures. Configuring `scalpel` gave me hands-on experience with modifying configuration files and using Linux commands to manage permissions and navigate the filesystem.
 
-   **Screenshot**: Insert screenshots here showing steps in the terminal, including:
+  ![Marked Malicious Emails](screenshots/scalpelonimage.png)
+   ![Marked Malicious Emails](screenshots/md5ofcarvedimg.png)
    - The edited `scalpel.conf` file
    - Commands run for carving and MD5 hash calculation
    - The output of the recovered file's hash calculation
