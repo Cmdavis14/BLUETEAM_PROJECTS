@@ -35,17 +35,15 @@ Utilized **FTK Imager** to capture both memory and disk images and employed **Pr
 - **Artifact Collection with KAPE**: Collected browser artifacts from a remote system via KAPE, demonstrating remote forensic data acquisition.
 - **Digital Forensic Methodologies**: Practiced methods essential for gathering data for analysis, enabling accurate incident response and forensic investigation.
 
-## Files
-`Digital_Data_Acquisition_Lab/README.md`
 
 ---
 
 **Screenshots:**  
 - ![FTK Imager memory capture process](screenshots/memdumpofdesktop.png)
 - ![FTK Imager disk imaging steps and hash output](screenshots/imageresultes.png)
-- ![PowerShell command to capture the PID and use ProcDump](screenshotscreatingmemdumpusingps.png) 
-- ![KAPE configuration and collection completion on the remote system](kaperesult1.png) 
-- ![KAPE configuration and collection completion on the remote system](kaperesult2.png) 
+- ![PowerShell command to capture the PID and use ProcDump](screenshots/creatingmemdumpusingps.png) 
+- ![KAPE configuration and collection completion on the remote system](screenshots/kaperesult1.png) 
+- ![KAPE configuration and collection completion on the remote system](screenshots/kaperesult2.png) 
 ---
 
 **Summary**  
