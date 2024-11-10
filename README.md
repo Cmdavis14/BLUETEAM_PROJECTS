@@ -50,5 +50,13 @@ This repository contains a collection of blue team-focused labs and projects des
    - [Identifying File systems using FTK Imager](Identifying_File_Systems_FTKImager/README.md)
 
 
+6.  **Metadata_Analysis_and_File_Carving_Lab**
+
+- **Objective**: Performed metadata analysis and file carving on digital files to retrieve hidden data and identify essential metadata details. The tasks involved analyzing metadata of files (`dummy.pdf` and `picture.jpg`) and carving a deleted image from a disk image                     (`carve1.img`).
+- **Methods**: Utilized **exiftool** to extract metadata details from files, including identifying the author of a PDF and the camera model used for a photo. Used **Scalpel** for file carving, configuring it to recover deleted images from a disk image. This process                      included modifying `scalpel.conf`, creating an output directory for recovered files, and verifying the integrity of the carved image with an MD5 hash.
+- **Skills Demonstrated**: Metadata Extraction, File Carving with Scalpel, Hash Verification, Forensic Methodologies.
+- **Files**:`Metadata_and_File_Carving/README.md`
+- [Metadata Analysis and File Carving Lab](Metadata_and_File_Carving/README.md)
+
 
 ## Repository Structure
