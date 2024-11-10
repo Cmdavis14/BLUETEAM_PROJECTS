@@ -42,10 +42,7 @@ Utilized **FTK Imager** to capture both memory and disk images and employed **Pr
 
 **Screenshots:**  
 - ![FTK Imager memory capture process](screenshots/memdumpofdesktop.png)
-- ![FTK Imager disk imaging steps and hash output](screenshots/imageresultes.png)
-- ![PowerShell command to capture the PID and use ProcDump](screenshotscreatingmemdumpusingps.png) 
-- ![KAPE configuration and collection completion on the remote system](kaperesult1.png) 
-- ![KAPE configuration and collection completion on the remote system](kaperesult2.png) 
+
 ---
 
 **Summary**  
