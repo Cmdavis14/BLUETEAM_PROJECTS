@@ -16,7 +16,7 @@ Throughout this investigation, the following tools and techniques were used:
 ### Part 1: Browser History Analysis
 Started by opening **Browser History Viewer (BHV)** and loading the browsing history data to identify web browsers used by the user. Browsing data revealed that the user accessed several social media websites, which was against the company policy.
 
-![FTK Imager memory capture process](screenshots/dataretrievedfro0webbrowsersfirstpic.png)
+![FTK Imager memory capture process](screenshots/1dataretrievedfro0webbrowsersfirstpic.png)
 
 I then examined the URL column to identify specific sites visited by the user, focusing on identifying social media platforms. The history indicated visits to sites such as Discord, Facebook, Reddit, Twitter, and YouTube.
 ### Part 2: Cached Images Analysis
