@@ -64,5 +64,14 @@ This repository contains a collection of blue team-focused labs and projects des
 - **Skills Demonstrated**:Memory Acquisition with **FTK Imager** and **ProcDump**, Disk Imaging using **FTK Imager** in **.E01** format, Remote Artifact Collection with **KAPE**, Use of forensic tools for data integrity verification (hashing)
 - **Files**: `Data_Acquisition/README.md`
 - [Data Acquisition Lab](Data_Acquisition/README.md)
+
+8. **Windows Investigation-Digital Forensics**
+   - **Objective:** Reconstructed user activity on a Windows system, identify unauthorized access and malicious downloads, and examine forensic artifacts to pinpoint security policy violations.
+   - **Methods:** Browser History Viewer (BHV): Analyzed browser history to track web usage, identify social media activity, and review cached images. Windows File Analyzer (WFA): Examined .LNK shortcut files to trace downloaded files and interactions with potentially malicious software. PECmd.exe: Parsed Windows Prefetch files to monitor executable activity and verify involvement of suspicious files. JumpList Explorer: Investigated Jump Lists to log application usage and identify URLs accessed through certain programs.
+   - **Skills Demonstrated:** Digital Forensics Analysis, Malware Detection, Data Triaging, Tool Proficiency
+   - **Files:** `Windows_Investigation-Digital_Forensics/README.md`
+   - **Screenshots:** Located in the `screenshots` folder.
+   - **Summary:** This lab involved investigating user activity on a Windows system by analyzing browser history, cached images, shortcuts, prefetch files, and jump lists to identify unauthorized actions and potentially malicious activity.
+   - [Manual Artifact Extraction Lab](Windows_Investigation-Digital_Forensics/README.md)**
   
 ## Repository Structure
