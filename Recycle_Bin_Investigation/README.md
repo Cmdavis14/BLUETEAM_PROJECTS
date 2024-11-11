@@ -25,27 +25,27 @@ The following tools and methods were used in this investigation:
 Sorted the FileSize column in descending order to identify the largest deleted file.
 
 ### Step 3: Identifying the User with the Most Deleted Files
-Filtered the FileName column to group deleted files by file path.
-Identified the user with the most deleted files by counting the frequency of unique file paths for each user.
+- Filtered the FileName column to group deleted files by file path.
+- Identified the user with the most deleted files by counting the frequency of unique file paths for each user.
 
 ### Step 4: Finding Specific Deletion Timestamps
-Located specific filenames within the FileName column in CSVQuickViewer.
-Retrieved timestamps by checking the DeletedOn column to determine when particular files were deleted.
-![FTK Imager memory capture process](screenshots/ranRBCmd_generateCSV.png)[Screenshot Placeholder: CSVQuickViewer highlighting the DeletedOn timestamp for a specified file.]
+- Located specific filenames within the FileName column in CSVQuickViewer.
+- Retrieved timestamps by checking the DeletedOn column to determine when particular files were deleted.
+![FTK Imager memory capture process](screenshots/deletedon.png)
 
 ### Step 5: Associating File Size with User Account
-Sorted the FileSize column to locate a specific file size.
-Cross-referenced the FileName column to identify the associated user account for that file size.
-![FTK Imager memory capture process](screenshots/ranRBCmd_generateCSV.png)[Screenshot Placeholder: CSVQuickViewer showing the file size entry and the associated user account.]
+- Sorted the FileSize column to locate a specific file size.
+- Cross-referenced the FileName column to identify the associated user account for that file size.
+![FTK Imager memory capture process](screenshots/deletecountbasedonuser.png)
 
 ### Step 6: Examining Files Related to Unauthorized Data Deletion
-Focused on files located within the /Downloads/ folder for a particular user.
-Confirmed that files of interest were deleted from the Downloads folder, supporting the theory of unauthorized data handling.
+- Focused on files located within the /Downloads/ folder for a particular user.
+- Confirmed that files of interest were deleted from the Downloads folder, supporting the theory of unauthorized data handling.
 
 ### Step 7: Determining User SID
-Located the entry for a specific user in the FileName column.
-Noted the SID value, focusing on the last four digits for verification.
-![FTK Imager memory capture process](screenshots/ranRBCmd_generateCSV.png)[Screenshot Placeholder: CSVQuickViewer displaying the SID value with the last four digits highlighted.]
+- Located the entry for a specific user in the FileName column.
+- Noted the SID value, focusing on the last four digits for verification.
+![FTK Imager memory capture process](screenshots/last4digit.png)
 
 ## Summary
-In this investigation, we used RBCmd and CSVQuickViewer to examine deleted files in the Windows Recycle Bin. By analyzing file sizes, deletion times, and user paths, we identified relevant user actions and any potential policy violations. This method effectively isolates specific user activities for further investigation and analysis.
+In this investigation, I used RBCmd and CSVQuickViewer to examine deleted files in the Windows Recycle Bin. By analyzing file sizes, deletion times, and user paths, I identified relevant user actions and any potential policy violations. This method effectively isolates specific user activities for further investigation and analysis.
