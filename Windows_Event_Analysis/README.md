@@ -27,12 +27,10 @@ This activity simulated a real-world scenario where monitoring Windows logs is c
 - Documented findings in a structured timeline to support the incident investigation.
 
 ## Screenshots
-To enhance the repository, include the following screenshots:
-1. **Finding User Account Creation, and Name of Account**: ![File Analysis Screenshot](screenshots/properties_of_malicious_file.png) ![File Analysis Screenshot](screenshots/properties_of_malicious_file.png)
+1. **Finding User Account Creation, and Name of Account**: ![File Analysis Screenshot](screenshots/findingnameofaccountthatwascreated.png) 
+2. **Filter For Special Events Only**: ![File Analysis Screenshot](screenshots/filteringto4672.png)
 
-2. **Filter For Special Events Only**: ![File Analysis Screenshot](screenshots/properties_of_malicious_file.png)
-
-3. **Checking Next Logs for Groups Account Was Added To**: ![File Analysis Screenshot](screenshots/properties_of_malicious_file.png)
+3. **Checking Next Logs for Groups Account Was Added To**: ![File Analysis Screenshot](screenshots/checkednext3logstoidentifysecuritygroupsitwasaddedto.png)
 
 ## Summary
 This lab provided valuable experience in analyzing Windows event logs for detecting suspicious behavior, identifying unauthorized account activity, and constructing timelines to support incident investigations. By leveraging tools like Event Viewer, I reinforced my understanding of digital forensics and incident response, which are critical in securing Windows domain-based organizations.
