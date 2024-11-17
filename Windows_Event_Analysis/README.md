@@ -25,9 +25,9 @@ This activity simulated a real-world scenario where monitoring Windows logs is c
 - Identified the creation of a new unauthorized user account.
 - Examined user group memberships to understand privilege escalation risks.
 - Documented findings in a structured timeline to support the incident investigation.
-
 ## Screenshots
-1. **Finding User Account Creation, and Name of Account**: ![File Analysis Screenshot](screenshots/findingnameofaccountthatwascreated.png) 
+1. **Finding User Account Creation, and Name of Account**: ![File Analysis Screenshot](screenshots/findingwhenusercreatedaccountbyfilteringto4720.png
+)  ![File Analysis Screenshot](screenshots/findingnameofaccountthatwascreated.png) 
 2. **Filter For Special Events Only**: ![File Analysis Screenshot](screenshots/filteringto4672.png)
 
 3. **Checking Next Logs for Groups Account Was Added To**: ![File Analysis Screenshot](screenshots/checkednext3logstoidentifysecuritygroupsitwasaddedto.png)
