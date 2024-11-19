@@ -23,24 +23,15 @@ In this lab, I was given an alert regarding a brute force attack against a Jooml
 ## Screenshots
 
 1. **Screenshot 1: Initial Search Query**  
-   - **When**: After running the search query `index="botsv1" sourcetype="stream:http" http_method=POST uri="/joomla/administrator/index.php"`.  
-   - **Where**: Insert screenshot of the Splunk search interface showing the query results with the number of events.  
-   - **What**: This will show the number of events triggered by the HTTP POST requests to the Joomla administrator page.
-
+![FTK Imager memory capture process](screenshots/searchquery.png)
 2. **Screenshot 2: Source IP Analysis**  
-   - **When**: After clicking on `src_ip` to view the count of events per source IP.  
-   - **Where**: Insert screenshot of the Splunk interface showing the list of source IPs with their event counts.  
-   - **What**: This will highlight the source IP address with the majority of events.
+![FTK Imager memory capture process](screenshots/findingsourceip.png)
 
 3. **Screenshot 3: Form Data Analysis**  
-   - **When**: After running the query `| spath timestamp | search timestamp="2016-08-10T21:46:44.453730Z"`.  
-   - **Where**: Insert a screenshot of the Splunk interface showing the form data with attempted username and password values.  
-   - **What**: This will display the first form data submitted by the attacker, showing the username and password they attempted.
+![FTK Imager memory capture process](screenshots/formdataanlysis.png)
 
 4. **Screenshot 4: First Password Attempt**  
-   - **When**: After running the query `| table timestamp,form_data` and sorting by the oldest event first.  
-   - **Where**: Insert screenshot showing the first password in the brute-force attack.  
-   - **What**: This will display the first password the attacker attempted in the brute-force series.
+![FTK Imager memory capture process](screenshots/lastscreenshot.png)
 
 ## Summary
 This lab successfully guided the investigation of a brute force attack against the Joomla administrator page. By leveraging Splunk's capabilities to analyze HTTP POST requests, I identified the source IP, determined the credentials attempted by the attacker, and examined the first password submitted. This process allowed me to track the attacker’s behavior and understand their methods.
