@@ -24,5 +24,3 @@ This repository contains a collection of labs related to using Splunk for securi
 - **Link to Lab**: [Brute Force Attack Investigation](#)
 
 ---
-
-Add newer lab entries below as you continue the course, following the same format.
