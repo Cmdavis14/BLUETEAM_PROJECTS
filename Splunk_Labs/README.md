@@ -21,6 +21,5 @@ This repository contains a collection of labs related to using Splunk for securi
   - Screenshots of the Splunk search results, IP analysis, and event details
 - **Summary**: 
   - This lab involved identifying and investigating a brute force attack targeting the Joomla administrator page. The objective was to determine the origin of the attack, whether it was successful, and if so, what actions the attacker performed.
-- **Link to Lab**: [Brute Force Attack Investigation](#)
-
+- **Link to Lab**:  <a href="https://github.com/Cmdavis14/BLUETEAM_PROJECTS/tree/main/Splunk_Labs/Brute_Force_Attack_Investigation">Brute Force Attack Investigation
 ---
